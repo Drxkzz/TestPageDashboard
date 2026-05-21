@@ -1,0 +1,69 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Vite / build outputs
+dist/
+build/
+.out/
+.vite/
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*.local
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+*.lcov
+
+# Cache
+.cache/
+.parcel-cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+.eslintcache
+.vitest/
+
+# Optional: lockfiles from other package managers
+.pnp.*
+
+# Ignore built static assets
+public/build/
+
+# Ignore local environment overrides
+.env.test
+.env.production.local
+
+# Temporary
+tmp/
+temp/
+
+# End
